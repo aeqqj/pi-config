@@ -1,0 +1,29 @@
+{
+  "lastChangelogVersion": "1.0.0",
+  "deviceId": "43652bc5-4967-4fe6-a6e1-87c6fd3f0775",
+  "defaultProvider": "openai",
+  "defaultModel": "gpt-5.6-sol",
+  "defaultThinkingLevel": "high",
+  "defaultTools": [
+    "+codemode",
+    "+tool_search"
+  ],
+  "observational-memory": {
+    "models": {
+      "observer": {
+        "provider": "openai",
+        "id": "gpt-5.6-luna",
+        "thinking": "low"
+      },
+      "consolidator": {
+        "provider": "openai",
+        "id": "gpt-5.6-sol",
+        "thinking": "medium"
+      }
+    }
+  },
+  "packages": [
+    "npm:pi-lens",
+    "npm:pi-free"
+  ]
+}
